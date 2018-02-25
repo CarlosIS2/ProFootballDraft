@@ -1,0 +1,78 @@
+body{
+    background: aliceblue;
+}
+h1{
+    color: darkblue;
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial;
+    font-style: unset;
+}
+
+.logoDraft{
+    float: left;
+    height: 100px;
+}
+
+img{
+    float: left;
+    height: 80px;
+}
+
+.Division{
+    font-size: 20px;
+}
+
+.Conference, .Contact{
+    font-size: 50px;
+    font-family: Arial;
+    font-style: italic;
+    padding: 20px;
+}
+
+
+.menuCSS {
+    position: relative; width: 100%; margin: 0 auto; font-family: Arial;
+}
+
+ul.submenu, ul.submenu ul {
+    display:flex; list-style: none; width: 100%; margin: 0; padding: 0; border: 0; font-size: 0; text-align: center;
+}
+
+ul.submenu {
+    border-top: 4px double #666; border-bottom: 4px solid #999; background: lightsteelblue;
+}
+
+
+ul.submenu li {
+    display: inline-block; margin: 20px; padding: 20px; font-size: 18px; line-height: 80px;
+}
+
+ul.submenu li a {
+    display: block; padding: 0 10px; text-decoration: none; text-transform: uppercase; color: darkblue;
+}
+
+ul.submenu li ul {
+    position: absolute; left: 0; width: 100%; height: 0; overflow: hidden; background: lightsteelblue; line-height: 0; z-index: 3;
+}
+
+ul.submenu ul a {
+    color: black;
+}
+
+ul.submenu li:hover a {
+    background: dodgerblue;
+}
+
+ul.submenu li:hover ul {
+    height: auto;
+}
+
+ul.submenu li:hover ul li a {
+    background: transparent;
+}
+
+ul.submenu li:hover ul li a:hover {
+    text-decoration: none; color: #333;
+}
+
